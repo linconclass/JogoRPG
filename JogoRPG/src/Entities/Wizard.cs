@@ -17,12 +17,19 @@ namespace JogoRPG.src.Entities
 
         public override string Attack()
         {
-            return this.Name + ": lançou magia";
+            return Name + ": lançou magia";
         }
 
         public string Attack(int Bonus)
         {
-            return this.Name + ": Lançou magia com bonus de ataque de " + Bonus;
+            if (Bonus > 6)
+            {
+                return Name + ": Lançou magia super efetiva com bonus de " + Bonus;
+            }
+            else
+            {
+                return Name + ": Lançou uma magia fraca com bonus de " + Bonus;
+            }            
         }
     }
 }

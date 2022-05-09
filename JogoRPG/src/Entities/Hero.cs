@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JogoRPG.src.Entities
 {
-    public class Hero
+    public abstract class Hero
     {
 
         public Hero(string Name, int Level, string HeroType)
@@ -20,14 +20,15 @@ namespace JogoRPG.src.Entities
         public int Level;
         public string HeroType;
 
+        //overrid => sobrescreve o método ToString() padrão
         public override string ToString()
         {
             return this.Name + " " + this.Level + " " + this.HeroType;
         }
 
-        public virtual string Attack()
+        public virtual string? Attack()
         {
-            return this.Name + ": atacou com a sua espada";
+            return null;
         }
     }
 }
