@@ -1,0 +1,15 @@
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\bin\Debug\net6.0\JogoRPG.exe
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\bin\Debug\net6.0\JogoRPG.deps.json
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\bin\Debug\net6.0\JogoRPG.runtimeconfig.json
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\bin\Debug\net6.0\JogoRPG.dll
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\bin\Debug\net6.0\JogoRPG.pdb
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.csproj.AssemblyReference.cache
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.AssemblyInfoInputs.cache
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.AssemblyInfo.cs
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.csproj.CoreCompileInputs.cache
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.dll
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\refint\JogoRPG.dll
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.pdb
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\JogoRPG.genruntimeconfig.cache
+D:\01 Programação\Projetos\projetoGFT\JogoRPG\obj\Debug\net6.0\ref\JogoRPG.dll
