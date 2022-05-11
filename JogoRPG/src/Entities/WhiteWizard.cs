@@ -6,29 +6,33 @@ using System.Threading.Tasks;
 
 namespace JogoRPG.src.Entities
 {
-    public class Wizard : Hero
+    public class WhiteWizard : Hero
     {
-        public Wizard(string Name, int Level, string HeroType) : base(Name, Level, HeroType)
+        public WhiteWizard(string Name, int Level, string HeroType, int HP, int MP, int hpFull, int mpFull) : base(Name, Level, HeroType, HP, MP, hpFull, mpFull)
         {
             this.Name = Name;
             this.Level = Level;
             this.HeroType = HeroType;
+            this.HP = HP;
+            this.hpFull = hpFull;
+            this.MP = MP;
+            this.mpFull = mpFull;
         }
 
         public override string Attack()
         {
-            return Name + ": lançou magia";
+            return Name + ": cast magic";
         }
 
         public string Attack(int Bonus)
         {
             if (Bonus > 6)
             {
-                return Name + ": Lançou magia super efetiva com bonus de " + Bonus;
+                return Name + ": cast super effective magic with bonus " + Bonus;
             }
             else
             {
-                return Name + ": Lançou uma magia fraca com bonus de " + Bonus;
+                return Name + ": cast a weak spell with bonus " + Bonus;
             }            
         }
     }

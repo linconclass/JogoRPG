@@ -8,16 +8,20 @@ namespace JogoRPG.src.Entities
 {
     internal class Knight : Hero
     {
-        public Knight(string Name, int Level, string HeroType) : base(Name, Level, HeroType)
+        public Knight(string Name, int Level, string HeroType, int HP, int MP, int hpFull, int mpFull) : base(Name, Level, HeroType, HP, MP, hpFull, mpFull)
         {
             this.Name = Name;
             this.Level = Level;
             this.HeroType = HeroType;
+            this.HP = HP;
+            this.hpFull = hpFull;
+            this.MP = MP;
+            this.mpFull = mpFull;
         }
 
         public override string Attack()
         {
-            return this.Name + ": atacou com a sua espada";
+            return Name + ": attacked with his sword";
         }
     }
 }
